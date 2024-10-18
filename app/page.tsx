@@ -1,4 +1,5 @@
-import Heading, { Heading2 } from "./Heading";
+import Button from "./components/ui/Button";
+import Heading, { Heading2 } from "./components/ui/Heading";
 
 export default function Home() {
   return (
@@ -11,6 +12,10 @@ export default function Home() {
       <Heading2>
         Hello 🐼!
       </Heading2>
+
+      <Button>
+        Boton
+      </Button>
     </>
     // </div>
   )
