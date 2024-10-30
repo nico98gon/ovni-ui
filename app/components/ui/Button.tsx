@@ -6,7 +6,8 @@ const Button = styled("button", {
     backgroundColor: "#dbdbdb",
     color: "#1f1f1f",
     padding: "0.5rem 1rem",
-    borderRadius: "0.25rem",
+    borderRadius: "0.4rem",
+    cursor: "pointer",
     "&:hover": {
       backgroundColor: "#b3b3b3",
     },

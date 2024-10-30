@@ -5,10 +5,10 @@ export default defineConfig({
   preflight: true,
 
   // Where to look for your css declarations
-  include: ["./**/*.{js,jsx,ts,tsx}", "./app/**/*.{js,jsx,ts,tsx}"],
+  include: ["./app/**/*.{js,jsx,ts,tsx}"],
 
   // Files to exclude
-  exclude: [],
+  exclude: ["./node_modules", ".git"],
 
   // Useful for theme customization
   theme: {
